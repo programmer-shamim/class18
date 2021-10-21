@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+  
+}
+.header{
+    padding: 20px;
+    width: 100%;
+    height: 70px;
+}
+.header-logo{
+    display: inline-block;
+    width: 20%;
+   
+}
+.header-logo a{
+    text-decoration: none;
+    color: black;
+}
+.div{
+    font-size: 45px;
+    font-weight: 700;
+    display: inline-block;
+    color: #1DA991;
+}
+.div4{
+    position: relative;
+    left: -23px;
+}
+.div2{
+    position: relative;
+    left: -14px;
+}
+.div3{
+    position: relative;
+    left: -45px;
+}
+.italic{
+    font-style: italic;
+    color: tomato;
+}
+.div1{
+    font-size:20px;
+    font-weight: bold;
+    position: relative;
+    top: -23px;
+}
+.logo{
+    margin-left: 20px;
+    position: relative;
+    top: -32px;
+}
+.header-menu{
+    display: inline-block;
+    text-align: right;
+    width: 70%;
+    position: relative;
+    top: -70px;
+    right: -70px;
+}
+
+.header-menu ul{}
+.header-menu ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/* banner */
+.banner{
+    text-align: center;
+    background-image: url(img/kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+    padding: 200px;
+    color: whitesmoke;
+    opacity: 1;
+}
+.banner h1{
+    font-weight: 700;
+}
+.banner p{
+    font-size: 20px;
+}
+.banner-button{
+    display: inline-block;
+    margin-top: 30px;
+}
+.banner-button i{
+    margin-right: 2px;
+}
+.banner-button a{
+    background-color: #fff;
+    color: #7D7D7D;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: .4s;
+}
+.banner-button a:hover{
+    background-color:#E9AC42;
+    color: whitesmoke;
+}
+/* pricing table */
+.pricing-table{
+    text-align: center;
+    background-color: #e9ecefcc;
+    padding: 50px;
+}
+.pricing-table-item{
+    display: inline-block;
+    
+    box-shadow: 3px 4px 30px rgb(31 55 80 / 50%);
+    width: 31.33%;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-top: 50px;
+    
+}
+
+.p-heading{
+    text-align: left;
+    padding: 30px;
+    border-bottom: 2px solid #ddd;
+    border-width: 100%;
+    transition: .4s;
+}
+.pricing-table-item:hover .p-heading{
+    background-color: #E9AC42;
+}
+.p-heading h4{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.p-heading h3{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.p-heading h5{
+    margin-bottom: 30px;
+}
+.p-heading span{
+    font-size: 15px;
+   
+}
+.p-content{
+    text-align: left;
+    padding: 30px;
+}
+.p-content ul li{
+    list-style-type: none;
+}
+.p-content ul li span{
+    font-size: 30px;
+   color: #E79230;
+    display: inline-block;
+    width: 60px;
+}
+.p-button{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.p-button a{
+    background-color: white;
+    color: #7E7E7D;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 3px 4px 30px rgb(169 169 169 / 50%);
+    font-weight: bold;
+    transition: .4s;
+}
+.pricing-table-item:hover .p-button a{
+    background-color: #E9AC42;
+}
+
+.team-section{
+    text-align: center;
+    padding: 50px;
+}
+.team-section h3{
+    margin-bottom: 50px;
+}
+.team-section-info{
+    display: inline-block;
+    border: 4px double tomato;
+    margin-right: 10px;
+}
+.team-section-info img{
+    width: 280px;
+    height: 280px;
+}
+.newsletter{
+    text-align: center;
+    padding: 50px;
+    background-color: #F5F5F5;
+}
+.newsletter h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.email{
+    padding: 10px 130px 10px 5px;
+    border: 2px solid #AA972C;
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    box-shadow: 3px 4px 30px 0 rgba(98,120,223,.2);
+    transition: .4s;
+    
+}
+.email:focus{
+    box-shadow: 3px 4px 30px 0 rgba(98,120,223,70%);
+    border: 2px solid #164B8C;
+}
+
+.newsletter-button a{
+    background-color: #AA972C;
+    color: whitesmoke;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+   transition: .4s;
+}
+.newsletter-button a:hover{
+    background-color: #fff;
+    color: #B39137;
+    border: 1px solid #AA972C;
+}
+.blog-section{
+    text-align:center;
+    padding:5px ;
+}
+.blog-section h1{
+    margin-bottom: 20px;
+}
+.blog-image{
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    top: -164px;
+    margin-right: 20px;
+}
+.blog-image img{
+    width: 400px;
+    height: 470px;
+}
+.blog-info{
+    color:#56504C;
+    display: inline-block;
+    width:60%;
+    height: 400px;
+    text-align: left;
+    position: relative;
+    top: 28px;
+    
+}
+.blog-info h5{
+    margin-bottom: 20px;
+}
+
+/* comment section */
+.comment-section{
+    text-align: center;
+    background-color: #EDF0F2;
+    padding: 50px;
+}
+.comment-item{
+    width: 31.33%;
+    height: 400px;
+    display: inline-block;
+    border: 1px solid #D6D8DF;
+    
+    background-color: #EDF0F2;
+     margin-top: 50px;
+     margin-right: 20px;
+}
+.comment-details::after{
+    content:'';
+    position: relative;
+    top: 88px;
+    right: 111px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+     border-style: solid;
+     border-width: 20px 20px 0 20px;
+      border-color: white transparent transparent transparent;
+}
+.comment-details{
+    text-align: left;
+    width: 100%;
+    height: 60%;
+    background:white;
+    padding: 50px;
+    font-size: 20px;
+    color: #767676;
+    position: relative;
+}
+.comment-details i{
+   position: absolute;
+   top: 32px;
+    left: 34px;
+    font-size: 70px;
+    opacity: .15;
+}
+.comment-user{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+   padding: 20px;
+}
+.user-details{
+    display: inline-block;
+}
+.comment-user img{
+       width: 100px;
+       height: 100px;
+       border: 3px solid #AA962B;
+       margin-right: 5px;
+}
+/* contact form */
+
+.contact-section{
+    text-align: center;
+}
+.contact-section h4{
+    
+    margin-bottom: 30px;
+}
+.contact-section p{
+    color: #7A8086;
+    margin-bottom: 30px;
+}
+.contact-form{
+    text-align: left;
+    display: inline-block;
+    width: 600px;
+
+}
+
+.form{
+    
+    border-radius: 5px;
+    border: 1px solid #AA972C;
+    margin-bottom: 15px;
+    padding-right: 50px;
+    
+}
+.form:focus{
+    box-shadow: 3px 4px 30px 0 rgba(98,120,223,.5);
+}
+
+
+
+.f-email{
+    width: 99%;
+    padding: 10px;
+}
+.f-name{
+    width: 290px;
+   padding: 10px;
+   margin-right: 10px;
+}
+.f-phon{
+    margin-right: 0;
+}
+.textarea{
+    width: 99%;
+    padding: 10px;
+}
+.c-button{
+   padding:10px 70px; 
+   background-color: #AA972C;
+   color: whitesmoke;
+   border: none;
+   border-radius: 5px;
+   margin-left: 225px;
+   margin-bottom: 50px;
+   transition: .4s;
+}
+.c-button:hover{
+    background-color: #fff;
+    color: #B39137;
+    border: 1px solid #AA972C;
+}
+.footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
