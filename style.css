@@ -355,7 +355,7 @@
     border: 1px solid #AA972C;
     margin-bottom: 15px;
     padding-right: 50px;
-    
+    transition:.4s;
 }
 .form:focus{
     box-shadow: 3px 4px 30px 0 rgba(98,120,223,.5);
